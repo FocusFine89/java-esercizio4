@@ -19,6 +19,7 @@ public class Main {
         int somma = 0;
         for (int i = 0; i < dipendenti.length; i++) {
             somma += dipendenti[i].getStipendio();
+            System.out.println("Matricola n." + dipendenti[i].getMatricola());
 
         }
         System.out.println("il totale degli stipendi è: " + somma + " euro");
